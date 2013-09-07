@@ -8,6 +8,9 @@
 	<body>
 		<div id="container">
 			<div id="header">
-				<?php wp_nav_menu(array('theme_location' => 'nav_bar', 'menu_id' => 'navigation')); ?>
+				<?php
+					$menu = is_user_logged_in() ? 'nav_bar_logged_in' : 'nav_bar_logged_out';
+					wp_nav_menu(array('theme_location' => $menu, 'menu_id' => 'navigation'));
+				?>
 			</div>
 			<div id="content">
