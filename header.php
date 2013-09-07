@@ -6,4 +6,8 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-	
+		<div id="container">
+			<div id="header">
+				<?php wp_nav_menu(array('theme_location' => 'nav_bar', 'menu_id' => 'navigation')); ?>
+			</div>
+			<div id="content">

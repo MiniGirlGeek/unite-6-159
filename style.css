@@ -18,36 +18,50 @@ html{
 }
 
 body{
-	position: relative;
-	max-width: 800px;
-	padding: 2em 4em;
-	margin: auto;
-	background: white url("images/noise.png");
 	font: 100%/1.6 Arvo, sans-serif;
 	text-shadow: 0 1px white;
 	-webkit-hyphens: auto;
-	box-shadow: -8px 0 15px -8px rgba(0,0,0,.5);
-	min-height: 615px;
+	box-shadow: -8px 0 15px -8px rgba(0,0,0,0.5);
+}
+
+#container {
+	width: 800px;
+	background: white url("images/noise.png");
+	margin: 0 auto;
+	padding: 40px;
 }
 
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	width: 850px;
-	margin-top: -40px;
 	font-size: 4em;
 }
 
-#navigation {
-	font-size: 15px !important;
-	width: 950px;
-	padding:0.5em 0.5em;
-	position: relative;
+ul#navigation {
+	width: 870px;
+	height: 35px;
+	margin: 0 0 0 -50px;
+	padding: 5px 15px;
 	background: maroon;
-	color: #fff;
-	text-align: left;
-	margin: 2em -79px 3em;  
 }
+
+ul#navigation li {
+	list-style-type: none;
+	float: left;
+	padding: 5px;
+	font-size: 18px;
+}
+
+ul#navigation li a {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+ul#navigation li a:hover {
+	background: #9A0E2A;
+}
+
  .ribbon .ribbon-content:before {
 	content: "";
 	position: absolute;
@@ -56,20 +70,11 @@ h1 {
 	border-color: #5C0819 transparent transparent transparent;
 	bottom: -1em;
 }
+
 .ribbon .ribbon-content:before {
 	left: 0;
 	border-width: 1em 0 0 1em;
 }
-
-.navigation:hover {
-	background: #9A0E2A;
-}
-
-.navigation {
-	padding: 5px;
-	color: white;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	text-decoration: none;
-	font-size: 1.3em;
-	margin-top: 10px;
+#content {
+	clear: both;
 }
