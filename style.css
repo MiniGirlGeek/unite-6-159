@@ -10,3 +10,66 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: minigirlgeek, unite
 */
 
+#navigation {
+	font-size: 15px !important;
+	width: 950px;
+	padding:0.5em 0.5em;
+	position: relative;
+	background: maroon;
+	color: #fff;
+	text-align: left;
+	margin: 2em -79px 3em;  
+}
+ .ribbon .ribbon-content:before {
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	border-color: #5C0819 transparent transparent transparent;
+	bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+	left: 0;
+	border-width: 1em 0 0 1em;
+}
+
+.navigation:hover {
+	background: #9A0E2A;
+}
+
+.navigation {
+	padding: 5px;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 1.3em;
+	margin-top: 10px;
+
+}
+
+body{
+	position: relative;
+	max-width: 800px;
+	padding: 2em 4em;
+	margin: auto;
+	background: url("http://leaverou.github.io/prefixfree/css/../img/noise.png") white;
+	font: 100%/1.6 Arvo, sans-serif;
+	text-shadow: 0 1px white;
+	-webkit-hyphens: auto;
+	box-shadow: -8px 0 15px -8px rgba(0,0,0,.5);
+	min-height: 615px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: 850px;
+	margin-top: -40px;
+	font-size: 4em;
+}
+html{
+	background-color: hsl(2, 57%, 40%);
+background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+}
