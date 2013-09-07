@@ -82,6 +82,9 @@ article {
 	border-bottom: 1px dotted black;
 	margin-bottom: 10px;
 }
+article:last-child {
+	border: 0;
+}
 article .date {
 	font-size: 13px;
 }
